@@ -1,0 +1,57 @@
+{
+	"auto_complete_delay": 500,
+	"bold_folder_labels": true,
+	"caret_style": "phase",
+	"color_scheme": "Packages/Color Scheme - Default/Tomorrow-Night-Bright.tmTheme",
+	"detect_slow_plugins": false,
+	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		".*",
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.scssc",
+		"*.sass-cache"
+	],
+	"font_face": "Source Code Pro Light",
+	"font_size": 11.0,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"BracketHighlighter",
+		"ASP",
+		"Vintage",
+		"SublimeRope",
+		"SetDjangoSyntax",
+		"ActionScript",
+		"AppleScript"
+	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"ruler":
+	[
+		80
+	],
+	"tab_size": 4,
+	"theme": "Dark.sublime-theme",
+	"trim_automatic_white_space": true,
+	"trim_trailing_white_space_on_save": true,
+	"scroll_past_end": true
+}
