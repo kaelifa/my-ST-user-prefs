@@ -53,5 +53,22 @@
 	"theme": "Dark.sublime-theme",
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,
-	"scroll_past_end": true
+	"scroll_past_end": true,
+
+	// https://github.com/robcowie/SublimeTODO
+	"todo":
+	{
+		"file_exclude_patterns":[
+			"*.txt", "*.po", "*.mo"
+		],
+		"folder_exclude_patterns": [
+			"js", "tmp"
+		],
+		"patterns":
+		{
+			"BUG": "BUG[\\s]*?:+(?P<bug>.*)$"
+		},
+		"case_sensitive": true,
+		"result_title": "TODO Results"
+	}
 }
