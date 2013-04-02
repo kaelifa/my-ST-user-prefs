@@ -1,10 +1,24 @@
 {
+	// http://www.granneman.com/webdev/editors/sublime-text/top-features-of-sublime-text/auto-completion-in-sublime-text/
+	// controls the time for auto complete to display
 	"auto_complete_delay": 500,
+
+	// Make folder labels bold in the side bar
 	"bold_folder_labels": true,
+
+	// Controls the style of the cursor
 	"caret_style": "phase",
+
+	// https://github.com/theymaybecoders/sublime-tomorrow-theme
 	"color_scheme": "Packages/Color Scheme - Default/Tomorrow-Night-Bright.tmTheme",
+
+	//
 	"detect_slow_plugins": false,
+
+	// Ensures a new line is added at the end of a file on save
 	"ensure_newline_at_eof_on_save": true,
+
+	// Ignore the following file extensions
 	"file_exclude_patterns":
 	[
 		".*",
@@ -30,9 +44,18 @@
 		"*.scssc",
 		"*.sass-cache"
 	],
+
+	// control font for Sublime editor
+	// https://github.com/adobe/Source-Code-Pro
 	"font_face": "Source Code Pro Light",
+
+	// Set the font size
 	"font_size": 11.0,
+
+	// Highlight the current line
 	"highlight_line": true,
+
+	// Ignore the following packages
 	"ignored_packages":
 	[
 		"BracketHighlighter",
@@ -43,16 +66,28 @@
 		"ActionScript",
 		"AppleScript"
 	],
+
+	// Control the padding for each line
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
+
+	//
 	"ruler":
 	[
 		80
 	],
+
+	// Set the default tab size
 	"tab_size": 4,
+
+	// Set the sidebar theme
 	"theme": "Dark.sublime-theme",
+
+	// Automatically delete all trailing white space on save
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,
+
+	// Allow the editor window to scroll past the end of the file
 	"scroll_past_end": true,
 
 	// https://github.com/robcowie/SublimeTODO
